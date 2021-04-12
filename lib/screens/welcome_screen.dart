@@ -3,7 +3,7 @@ import '../widgets.dart';
 import 'login_screen.dart';
 import 'registration_screen.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
-import 'package:new_app/saved_datas.dart';
+import '../saved_datas.dart';
 
 class WelcomeScreen extends StatefulWidget {
   static const String id = 'welcome_screen';

@@ -1,13 +1,13 @@
 import 'dart:io';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
-import 'package:new_app/screens/question_screen.dart';
+import '../screens/question_screen.dart';
 
 import 'profile_form.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:new_app/widgets.dart' as widget;
+import '../widgets.dart' as widget;
 
 class DashboardScreen extends StatefulWidget {
   DashboardScreen({Key key}) : super(key: key);

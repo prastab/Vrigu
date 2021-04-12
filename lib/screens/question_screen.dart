@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 import 'package:http/http.dart' as http;
 import 'dart:io';
-import 'package:new_app/widgets.dart' as widget;
+import '../widgets.dart' as widget;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 import 'answer_screen.dart';

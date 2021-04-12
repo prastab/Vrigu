@@ -2,12 +2,12 @@ import 'dart:io';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:new_app/constants.dart';
-import 'package:new_app/saved_datas.dart';
-import 'package:new_app/widgets.dart';
+import '../constants.dart';
+import '../saved_datas.dart';
+import '../widgets.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'package:new_app/widgets.dart' as widget;
+import '../widgets.dart' as widget;
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 
 class ProfileForm extends StatefulWidget {
